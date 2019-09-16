@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "b6dd2c6d-dd3e-4a48-9fd1-820f247e476e",
+		"name": "GroupKT States",
+		"description": "GET",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "IND States",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://services.groupkt.com/state/get/IND/all",
+					"protocol": "http",
+					"host": [
+						"services",
+						"groupkt",
+						"com"
+					],
+					"path": [
+						"state",
+						"get",
+						"IND",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
